@@ -3,3 +3,8 @@ local.properties
 build/ 
 .idea/ 
 *.iml 
+local.properties 
+.gradle/ 
+build/ 
+.idea/ 
+*.iml 
